@@ -1,0 +1,39 @@
+body
+	{
+		background: #eee8aa;
+	}
+#menu-wrapper
+   {
+     background: #f0f8ff;
+   }
+   #menu li
+   {
+     display: inline-block;
+   }
+   #menu li a
+   {
+     margin:13px 5px 13px 20px;
+     display: inline-block;
+     text-decoration: none;
+     font-size: 100%;
+     font-weight: 600;
+     text-transform: uppercase;
+     outline: 0;
+     color: #000;
+    }
+.thumbnail {
+    display:inline-block;
+    margin:auto;
+    position: relative;
+    width: 1000px;
+    height: 500px;
+
+}
+.caption{
+    margin:80px;
+    position: absolute;
+    top: 0px;
+    left: 490px;
+    width: 500px;
+    height: 100px;
+}
