@@ -1,44 +1,38 @@
 <html>
 <head>
-<meta name="keywords" content="" />
-<meta name="description" content="" />
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
 <link href="default.css" rel="stylesheet" type="text/css" media="all" />
 </head>
 <body>
-<div>
 	<div id="menu-wrapper">
-		<div id="menu" class="container-fluid">
+		<div id="menu" class="container">
 			<ul>
-	      <li><a href="#" accesskey="1" title="">首頁</a></li>
-				<li><a href="#" accesskey="2" title="">網站理念</a></li>
-				<li><a href="#" accesskey="3" title="">文化介紹</a></li>
-				<li><a href="#" accesskey="4" title="">服飾精品</a></li>
-				<li><a href="#" accesskey="5" title="">愛心捐款</a></li>
+				<li><a href="#" accesskey="1" title="">Homepage</a></li>
+				<li><a href="#" accesskey="2" title="">Our Clients</a></li>
+				<li><a href="#" accesskey="3" title="">About Us</a></li>
+				<li><a href="#" accesskey="4" title="">Careers</a></li>
+				<li><a href="#" accesskey="5" title="">Contact Us</a></li>
 			</ul>
 		</div>
 	</div>
   <ul class="thumbnails">
-        <ul>
+        <li>
             <div class="thumbnail">
                 <img src="http://placehold.it/450x300" alt="*">
+                <div class="caption">
+                  <h3>產品標題</h3>
+                    <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.Cras justo odio, dapibus ac facilisis in.</p>
+                  <h4>尺寸選擇</h4>
+              <select name = "count">
+                  <option value = "X">X</option>
+                  <option value = "XL">XL</option>
+                  <option value = "XLL">XLL</option>
+                  <option value = "L">L</option></select>
+               <h5>輸入購買數量</h5>
+                  <input type = "text" name = "count" value = "請輸入您欲購買的數量"><br><br>
+                  <input type = "button" name = "buy" value = "加入購物車">
+                </div>
             </div>
-            <div class="caption">
-                 <h3 id=title></h3>
-                 <p>讚喔</p>
-                 <h4>尺寸選擇</h4>
-                 <select name = "count">
-                 <option value = "X">X</option>
-                 <option value = "XL">XL</option>
-                 <option value = "XLL">XLL</option>
-                 <option value = "L">L</option></select>
-                 <h5>輸入購買數量</h5>
-                 <input type = "text" name = "count" value = "請輸入您欲購買的數量"><br><br>
-                 <input type = "button" name = "buy" value = "加入購物車" onclick="javascript:location.href='https://www.facebook.com/So.I.Love.HA.HA'">
-             </div>
-       </ul>
+        </li>
   </ul>
- </div>
 </body>
-<script src="default.js"></script>
 </html>
